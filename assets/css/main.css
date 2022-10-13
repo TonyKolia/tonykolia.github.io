@@ -4956,3 +4956,18 @@ li .button:hover{
 .specs-list li{
 	padding-left: 0;
 }
+
+.profile-img{
+	width: auto;
+	height: 200px;
+	border-radius: 100px;
+	border: 1px solid #eeeeee;
+}
+
+.profile-img-container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 2rem;
+}
