@@ -3643,7 +3643,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	}
 
 	#intro .actions {
-		display: none;
+		display: flex;
 	}
 
 }
@@ -4899,4 +4899,60 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 
 li .button:hover{
 	cursor: pointer !important;
+}
+
+.video{
+	width: 1280px;
+	height: 720px;
+}
+
+@media screen and (max-width: 1680px) {
+	
+	.video{
+		width: 1024px;
+		height: 576px;
+	}
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+	
+	.video{
+		width: 960px;
+		height: 540px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	
+	.video{
+		width: 640px;
+		height: 360px;
+	}
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+	
+	.video{
+		width: 320px;
+		height: 180px;
+	}
+}
+
+@media screen and (max-width: 424px){
+	
+	.video{
+		width: 256px;
+		height: 144px;
+	}
+}
+
+
+.specs-list{
+	text-align: center;
+	padding-left:  0;
+	list-style: none;
+}
+
+.specs-list li{
+	padding-left: 0;
 }

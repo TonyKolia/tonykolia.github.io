@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Portfolio Antonios Koliarakis - Lending Library</title>
+    <link rel="icon" href="../images/favicon.ico" sizes="128x128">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="../assets/css/noscript.css" />
+    </noscript>
+</head>
+
+<body>
+    <div id="wrapper" class="fade-in">
+        <div class="bg"></div>
+        <div id="main">
+            <h2 class="project-title center-alignment">Lending Library</h2>
+            <div class="video-container">
+                <video class="video" controls>
+                    <source src="../Videos/Rock-Paper-Scissors-demo.mp4" type="video/mp4">
+                </video>
+            </div>
+            <article>
+                <header>
+                    <h2 class="center-alignment">More Information</h2>
+                </header>
+                <p>A lending library application, named "iRead", which allows registered users to browse, rate and
+                    favorite books as well as make reservations in order to pick up the books from the physical library
+                    location. Registered users also receive personalized recommendations and search results as produced
+                    by AI algorithms.</p>
+                <p>The personalized recommendations and search results for the registered users are generated through
+                    the integration of a recommendation system into the lending library application. This recommendation
+                    system is based on a hybrid approach, utilizing collaborative filtering and content based filtering
+                    algorithms. The collaborative filtering is perform exclusively by a machine learning model. The
+                    content based filtering is performed by a custom algorithm which takes advantage of the preferences
+                    that the user supplies during the registration process.</p>
+                <p>By rating, favoriting and performing reservations, the user implicitly supplies data for the machine
+                    learning model which only gets more accurate the more information it gathers about the user's
+                    preferences, resulting in more accurate recommendations.</p>
+                <p>The application also integrates email services, through which the user activates its account after
+                    registration, receives confirmation and details about a new reservation and is able to reset its
+                    password.</p>
+                <p>A notification system is also present, alerting the user of overtime lendings, newly added books from
+                    its favorite categories - authors and availabilty of books that have been marked as favorite.</p>
+                <small style="font-size: 0.6rem"><i>This application is not aimed at commercial use. All the images, book titles, authors and publishers are intellectual property of their owners and were only used to create a realistic representation of a library system.</i></small>
+            </article>
+            <article>
+                <header>
+                    <h2 class="center-alignment">Technical Specifications</h2>
+                </header>
+                <h3 class="center-alignment">Front End</h3>
+                <ul class="specs-list">
+                    <li>React JS 18.1</li>
+                    <li>Bootstrap 5</li>
+                    <li>Custom CSS</li>
+                    <li>Font Awesome</li>
+                </ul>
+                <ul class="actions special">
+                    <li>
+                        <a href="https://github.com/TonyKolia/iRead-Client" class="button" target="_blank">Github
+                            Repository</a>
+                    </li>
+                </ul>
+                <h3 class="center-alignment">Back End</h3>
+                <ul class="specs-list">
+                    <li>.NET 6</li>
+                    <li>ML.NET</li>
+                    <li>Entity Framework Core 6</li>
+                </ul>
+                <ul class="actions special">
+                    <li>
+                        <a href="https://github.com/TonyKolia/iRead-Backend" class="button" target="_blank">Github
+                            Repository</a>
+                    </li>
+                </ul>
+                <h3 class="center-alignment">Database</h3>
+                <ul class="specs-list">
+                    <li>MS SQL Server 2019</li>
+                </ul>
+                <h3 class="center-alignment">General</h3>
+                <ul class="specs-list">
+                    <li>RESTful API</li>
+                    <li>HMAC512 Encryption</li>
+                    <li>JSON Web Token for Authorization & Authentication</li>
+                    <li>Automatic deployment to Azure Web Apps after pushing changes</li>
+                </ul>
+            </article>
+            <article>
+                <ul class="actions special">
+                    <li>
+                        <a href="../index.html" class="button">Return to portfolio</a>
+                    </li>
+                </ul>
+            </article>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/imgScript.js"></script>
+
+</body>
+
+</html>
