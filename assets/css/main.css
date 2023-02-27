@@ -4960,7 +4960,7 @@ li .button:hover{
 .profile-img{
 	width: auto;
 	height: 200px;
-	border-radius: 100px;
+	border-radius: 100%;
 	border: 1px solid #eeeeee;
 }
 
