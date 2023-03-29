@@ -4906,12 +4906,22 @@ li .button:hover{
 	height: 720px;
 }
 
+.iread-custom-image{
+	width: 1280px;
+	height: 1040px;
+}
+
 @media screen and (max-width: 1680px) {
 	
 	.video{
 		width: 1024px;
 		height: 576px;
 	}
+	.iread-custom-image{
+		width: 1024px;
+		height: 825px;
+	}
+
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
@@ -4919,6 +4929,10 @@ li .button:hover{
 	.video{
 		width: 960px;
 		height: 540px;
+	}
+	.iread-custom-image{
+		width: 1024px;
+		height: 774px;
 	}
 }
 
@@ -4928,6 +4942,10 @@ li .button:hover{
 		width: 640px;
 		height: 360px;
 	}
+	.iread-custom-image{
+		width: 640px;
+		height: 516px;
+	}
 }
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
@@ -4936,6 +4954,11 @@ li .button:hover{
 		width: 320px;
 		height: 180px;
 	}
+
+	.iread-custom-image{
+		width: 320x;
+		height: 258px;
+	}
 }
 
 @media screen and (max-width: 424px){
@@ -4943,6 +4966,11 @@ li .button:hover{
 	.video{
 		width: 256px;
 		height: 144px;
+	}
+
+	.iread-custom-image{
+		width: 256x;
+		height: 206px;
 	}
 }
 
